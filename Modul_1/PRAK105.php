@@ -7,7 +7,8 @@
             color: black;
             font-size: 22px;
             text-align: center;
-            padding: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
     </style>
     <title>SOAL 5</title>
