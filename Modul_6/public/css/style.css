@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fefce8;
+    margin: 0;
+}
+h1 {
+    color:#443627;
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+}
+.custom-navbar {
+    background-color: #89a68a !important;
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link .nav-link:hover {
+    color: white !important;
+}
+.custom-footer {
+    background-color: #89a68a !important; color: white;}
+.center {
+    text-align: center; margin-top: 4em; }
+.card {
+    background-color: #f9c5c0;
+    width: 300px;
+    margin: 2em auto;
+    padding: 1.5em;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em;
+    color: #443627;font-weight: bold;
+}
+footer {
+    background-color: #89a68a;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.profil-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #fefce8;
+    gap: 2em;
+}
+.profile-left, .profile-middle, .profile-right { flex: 1;}
+.profile-img, .illustration-img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #f9c5c0;
+}
+.shortname {
+    color: #6e8b6c;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+.profile-middle h3 {
+    background-color: #f9c5c0;
+    padding: 0.5em;
+    color: #4a4a4a;
+    margin-bottom: 0.5em;
+}
+.landscape-img {
+    max-width: 300%;
+    width: 100%;
+    height: auto;
+    border: 5px solid #f9c5c0;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 5em;
+}
+.comfort-food {
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #4a3606;
+}
+.about-box {
+    margin-bottom: 5em;
+    margin-left: 0em;
+    margin-right: 5em;
+}
+.about-title {
+    background-color: #f9c5c0;
+    color: #4a3606;
+    padding: 0.4em 1em;
+    font-weight: bold;
+}
+.about-content {
+    background-color: #89a68a;
+    padding: 1em 1.2em;
+    color: #fefce8;
+    font-weight: 500;
+}
+.hobi-text, .comfort-song {
+    margin-top: 1em;
+    font-weight: bold;
+    color: #4a3606;
+}
